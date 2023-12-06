@@ -1,5 +1,15 @@
 package org.example;
 
-public class OtherImpl implements SomeInterface{
-    public void doSomething(){ System.out.println("B");}
+/**
+ * An implementation of the {@link SomeInterface} with a specific behavior.
+ */
+public class OtherImpl implements SomeInterface {
+
+    /**
+     * Performs the specific behavior associated with this implementation.
+     */
+    @Override
+    public void doSomething() {
+        System.out.println("B");
+    }
 }

@@ -1,5 +1,15 @@
 package org.example;
 
+/**
+ * An implementation of the {@link SomeOtherInterface} with a specific behavior.
+ */
 public class SODoer implements SomeOtherInterface {
-    public void doSomeOther(){ System.out.println("C");}
+
+    /**
+     * Performs the specific behavior associated with this implementation.
+     */
+    @Override
+    public void doSomeOther() {
+        System.out.println("C");
+    }
 }

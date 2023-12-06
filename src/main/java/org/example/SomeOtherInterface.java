@@ -1,5 +1,12 @@
 package org.example;
 
+/**
+ * Another interface defining a method for performing some other action.
+ */
 public interface SomeOtherInterface {
-    public void doSomeOther();
+
+    /**
+     * Performs some other action.
+     */
+    void doSomeOther();
 }
